@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Cookies.aspx" />
+    <Content Include="ProductConfirmCookies.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -77,6 +78,13 @@
     </Compile>
     <Compile Include="Cookies.aspx.designer.cs">
       <DependentUpon>Cookies.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ProductConfirmCookies.aspx.cs">
+      <DependentUpon>ProductConfirmCookies.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ProductConfirmCookies.aspx.designer.cs">
+      <DependentUpon>ProductConfirmCookies.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
